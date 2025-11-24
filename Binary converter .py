@@ -151,8 +151,8 @@ def binary_to_number():
                 print("Invalid operation selected. Please choose 1 or 2.")
             
     input_main()
-op=int(input("1 To convert Octal number to Binary \n"\
-         "2 To convert  Hexadecimal Number to Binary \n"\
+op=int(input("1 To convert Number to Binary \n"\
+         "2 To convert  Binary to Number  \n"\
         #  "q to quit \n"\
          "Choose the operation (1 or 2 or q): "))
 if op==1:
@@ -163,4 +163,5 @@ elif op==2:
 #     print("Exiting the program.")   
 #     break
 else:
+
     print("Invalid operation selected. Please choose 1 or 2.") 
